@@ -1,0 +1,26 @@
+
+body {
+	background-color: #02010a;
+}
+h1, h2 {
+	color: white;
+	font-family: Dancing Script;
+	text-shadow: 2px 2px #02010a;
+
+}
+h1 {
+    text-align: left;
+    padding-top: 2%;
+
+}
+#cabecera {
+	background-color: #5b7989;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+a {
+	color: white;
+	font-family: Dancing Script;
+	font-size: 30px;
+	float: right;
+}
