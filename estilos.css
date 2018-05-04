@@ -13,19 +13,34 @@ h1, h2 {
 h1 {
     text-align: left;
     padding-top: 2%;
+}
 
-
+a {
+	color: white;
+	font-family: Dancing Script;
+	font-size: 30px;
 }
 #cabecera {
 	background-color: #5b7989;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
-a {
-	color: white;
-	font-family: Dancing Script;
-	font-size: 30px;
-	}
+
+.imagen1 {
+        text-align: center;
+        background-color: #82c3a6;
+        padding: 10px;
+}
+.imagen {
+	background-color: #d5c75f;
+	padding: 10px;
+	flex: row; 	
+}
+img[src$='jpg'] {
+	
+	border:solid 1px #02010a;
+	box-shadow: 2px #82c3a6;
+}
 
 @media (max-width:900px){ 
 
@@ -36,22 +51,3 @@ a {
 			text-align: center;
 		}
 	}
-
-img {
-	box-shadow: 2px 2px #02010a;
-}	
-.imagen1 {
-        text-align: center;
-        background-color: #82c3a6;
-        padding: 10px;
-}
-.imagen2 {
-	padding-left: 10PX;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #d5c75f;
-}
-div < .imagen2{
-	width: 30px;
-
-}
