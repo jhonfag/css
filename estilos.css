@@ -1,6 +1,8 @@
 
 body {
 	background-color: #02010a;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 h1, h2 {
 	color: white;
@@ -12,6 +14,7 @@ h1 {
     text-align: left;
     padding-top: 2%;
 
+
 }
 #cabecera {
 	background-color: #5b7989;
@@ -22,8 +25,33 @@ a {
 	color: white;
 	font-family: Dancing Script;
 	font-size: 30px;
-	text-decoration: none;
+	}
+
+@media (max-width:900px){ 
+
+	#contenido img {
+		 width: 100%;
+		}
+		body, h1{
+			text-align: center;
+		}
+	}
+
+img {
+	box-shadow: 2px 2px #02010a;
+}	
+.imagen1 {
+        text-align: center;
+        background-color: #82c3a6;
+        padding: 10px;
 }
-@keyframes {
-	st
+.imagen2 {
+	padding-left: 10PX;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #d5c75f;
+}
+div < .imagen2{
+	width: 30px;
+
 }
